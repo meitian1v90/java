@@ -42,4 +42,4 @@ public class Text {
 }
 ```
 ## 实验结果
-!(java实验结果.png)
+![](java实验结果.png)
