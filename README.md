@@ -9,6 +9,8 @@ java实验
 根据课堂中关于访问权限的内容，尝试定义属性的修饰符多样化，类中定义方法操作属性，避免直接通过“类对象.属性”的形式访问属性值；且定义的方法内应该有符合常理的逻辑判断；
 尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法。
 
+## 实验过程
+创建test主类 cpu harddisk pc类并赋值
 ## 实验方法
 在test创建cpu disk pc对象并设置数值 cpu类返回speed值，setspeed(int m)将m赋值给speed；harddisk类返回amount值；pc类setcpu（cpu c）赋值给cpu，setharddisk（harddisk h）赋值给hd。
 show（）显示cpu和硬盘性能
