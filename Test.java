@@ -1,20 +1,20 @@
 package pack1;
 
-public class Text {
+public class Test {
 	public static void main(String args[]) {
-	  //´´½¨Ò»¸öCPU¶ÔÏó
+	  //åˆ›å»ºä¸€ä¸ªCPUå¯¹è±¡
 		CPU cpu =new CPU();
-	  //½«cpuµÄspeedÉèÖÃÎª2200
+	  //å°†cpuçš„speedè®¾ç½®ä¸º2200
 	    cpu.setSpeed(2200);
-	  //cpuĞÍºÅ  
+	  //cpuå‹å·  
 	    cpu.settype("i7-9750H");
-	  //´´½¨Ò»¸öHardDisk¶ÔÏó
+	  //åˆ›å»ºä¸€ä¸ªHardDiskå¯¹è±¡
 	    HardDisk disk=new HardDisk();
-	  //½«diskµÄamountÉèÖÃÎª200
+	  //å°†diskçš„amountè®¾ç½®ä¸º200
 	    disk.setAmount(200);
-	  //Ó²ÅÌ¶ÁĞ´ËÙ¶È  
+	  //ç¡¬ç›˜è¯»å†™é€Ÿåº¦  
 	    disk.setspeed2(500);
-	  //´´½¨Ò»¸öPC¶ÔÏó
+	  //åˆ›å»ºä¸€ä¸ªPCå¯¹è±¡
 	    PC pc=new PC();
 	    pc.setCPU(cpu);
 	    pc.setHardDisk(disk);
